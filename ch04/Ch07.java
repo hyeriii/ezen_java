@@ -4,54 +4,48 @@ import java.util.Scanner;
 public class Ch07 {
 
 	public static void main(String[] args) {
-		//210707
-		//134p 확인문제7번
+	//210707
+	//134p 확인문제7번
+				
+	boolean run = true; 
+				
+	int balance =0;
+				
+	Scanner scanner = new Scanner(System.in);
 		
-		boolean run = true; 
+	while(run) {
+	System.out.println("-----------------------------");
+	System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료");
+	System.out.println("-----------------------------");
+	System.out.print("선택>");
+					
+	String text = scanner.next(); 
+	//String text = scanner.nextLine(); 
 		
-		int balance =0;
-		
-		Scanner scanner = new Scanner(System.in);
-		/*
-		while(run) {
-			System.out.println("-----------------------");
-			System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료");
-			System.out.println("-----------------------");
-			System.out.println("선택>");
-			
-			int text = scanner.nextInt(); 
-			
-			if(text.equals("1")) {
-				
-				System.out.println("예금액>");
-				text = scanner.nextInt();
-				System.out.println(text);
-				
-			}else if(text.equals("2")) {
-				
-				System.out.println("출금>");
-				text = scanner.nextLine();
-				
-				System.out.println(text);
-				
-			}else if(text.equals("3")) {
-				
-				System.out.println("잔고>");
-				text = scanner.nextLine();
-				//int a =(int)text;
-				System.out.println(text);
-			}else if(text.equals("4")) {
-				run = false;
-				
-			}
-			
-			
-			
-		}
-
+	if(text.equals("1")) {
+						
+		System.out.print("예금액>");
+		balance += scanner.nextInt();
+		//scanner.nextLine();
+	}else if(text.equals("2")) {
+						
+		System.out.print("출금>");
+		balance -= scanner.nextInt();
+		//scanner.nextLine();
+	}else if(text.equals("3")) {
+						
+		System.out.print("잔고>");
+		System.out.println(balance);
+	}else if(text.equals("4")) {
+						
+		run = false;
+						
+	}
+					
+	 }
 		System.out.println("프로그램 종료");
+				
 		
-		*/
 	}
 
 }
