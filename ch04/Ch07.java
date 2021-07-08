@@ -19,14 +19,14 @@ public class Ch07 {
 	System.out.println("-----------------------------");
 	System.out.print("선택>");
 					
-	String text = scanner.next(); 
-	//String text = scanner.nextLine(); 
+	//String text = scanner.next(); 
+	String text = scanner.nextLine(); // 개행이 포함되므로 
 		
 	if(text.equals("1")) {
 						
 		System.out.print("예금액>");
 		balance += scanner.nextInt();
-		//scanner.nextLine();
+		//개행을 여기서 먹어들어가게 해줬으므로 정상동작 되는것 scanner.nextLine();
 	}else if(text.equals("2")) {
 						
 		System.out.print("출금>");
