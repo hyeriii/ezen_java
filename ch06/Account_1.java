@@ -2,6 +2,7 @@ package ch06;
 
 public class Account_1 {
 
+	//210714 6장 확인문제 20번
 	private String ano;
 	private String owner;
 	private int balance;
