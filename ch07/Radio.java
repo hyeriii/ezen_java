@@ -5,11 +5,11 @@ public class Radio extends Machine {
 	String model;
 	String no;
 	
-	public void trunOn() {
+	public void turnOn() {
 		System.out.println("radio on");
 	}
 
-	public void trunOff() {
+	public void turnOff() {
 		System.out.println("radio off");
 	}
 }

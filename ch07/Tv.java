@@ -5,12 +5,12 @@ public class Tv extends Machine {
 	String model;
 	String no;
 	
-	public void trunOn() {
-		System.out.println("tv on");
+	public void turnOn() {
+		System.out.println("Tv¸¦ ÄÕ´Ï´Ù.");
 	}
-
-	public void trunOff() {
-		System.out.println("tv off");
+	
+	public void turnOff() {
+		System.out.println("Tv¸¦ ²ü´Ï´Ù.");
 	}
 
 }

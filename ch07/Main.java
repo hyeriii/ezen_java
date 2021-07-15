@@ -5,10 +5,10 @@ public class Main {
 	public static void main(String[] args) {
 
 		Tv tv = new Tv();
-		tv.trunOn();
+		tv.turnOn();
 		
 		Radio radio = new Radio();
-		radio.trunOn();
+		radio.turnOn();
 		
 		Home home = new Home();
 		
@@ -34,9 +34,12 @@ public class Main {
 		//자식이 대입되느냐에 따라 다양한 결과를 도출해내는 것
 		Machine machine = new Machine();
 		
+		System.out.println("*******************************************************");
+		
 		home.turnOn(machine);
 		
 		home.turnOn(tv);
+		home.turnOn(radio);
 	}
 
 }
