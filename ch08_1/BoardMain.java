@@ -103,9 +103,10 @@ public class BoardMain {
 				FreeBoard[] arrayFree = new FreeBoard[] {f1, f2,f3,f4,f5,f6};
 				FreeBoardList fList = new FreeBoardList(arrayFree);
 				
-				ListBoard f = fList;
+				//interface »ç¿ë
+				ListBoard interfaceF = fList;
 				
-				System.out.println(f.size());
+				System.out.println(interfaceF.size());
 				
 	}
 
