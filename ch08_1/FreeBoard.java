@@ -1,11 +1,10 @@
 package ch08_1;
 
-public class FreeBoard extends Board{
-
+public class FreeBoard extends Board {
+	
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	
 	public void setWriter(String writer) {
 		this.writer = writer;
 	}
@@ -13,12 +12,11 @@ public class FreeBoard extends Board{
 		this.wdate = wdate;
 	}
 	public void setContent(String content) {
-		this.content= content;
+		this.content = content;
 	}
 	public void setHit(int hit) {
-		this.hit=hit;
+		this.hit = hit;
 	}
-	
 	public String getTitle() {
 		return title;
 	}
@@ -34,6 +32,4 @@ public class FreeBoard extends Board{
 	public int getHit() {
 		return hit;
 	}
-	
-	
 }

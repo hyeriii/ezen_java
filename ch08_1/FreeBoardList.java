@@ -1,13 +1,11 @@
 package ch08_1;
 
-public class NoticeBoardList implements ListBoard {
-
-	private NoticeBoard[] list;
+public class FreeBoardList implements ListBoard {
+	private FreeBoard[] list;
 	
-	public NoticeBoardList(NoticeBoard[] list){
+	public FreeBoardList(FreeBoard[] list) {
 		this.list = list;
 	}
-	
 	public int size() {
 		return list.length;
 	}

@@ -1,14 +1,11 @@
 package ch08_1;
 
-public class NoticeBoard extends Board {
-
-	
+public class NoticeBoard extends Board{
 	private boolean topYN;
 	
 	public void setTitle(String title) {
 		this.title = title;
 	}
-	
 	public void setWriter(String writer) {
 		this.writer = writer;
 	}
@@ -16,12 +13,11 @@ public class NoticeBoard extends Board {
 		this.wdate = wdate;
 	}
 	public void setContent(String content) {
-		this.content= content;
+		this.content = content;
 	}
 	public void setHit(int hit) {
-		this.hit=hit;
+		this.hit = hit;
 	}
-	
 	public String getTitle() {
 		return title;
 	}
@@ -39,10 +35,9 @@ public class NoticeBoard extends Board {
 	}
 	
 	public void setTopYN(boolean topYN) {
-		this.topYN =topYN;
+		this.topYN = topYN;
 	}
 	public boolean getTopYN() {
 		return topYN;
 	}
-	
 }

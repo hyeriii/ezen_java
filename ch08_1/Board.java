@@ -8,16 +8,13 @@ public abstract class Board {
 	public int hit;
 	
 	public abstract void setTitle(String title);
-	
 	public abstract void setWriter(String writer);
-	public  abstract void setWdate(String wdate);
+	public abstract void setWdate(String wdate);
 	public abstract void setContent(String content);
-	public abstract void setHit(int hit);
-	
+	public abstract void setHit(int hit) ;
 	public abstract String getTitle() ;
-	public abstract  String getWriter();
-	public abstract  String getWdate() ;
+	public abstract String getWriter() ;
+	public abstract String getWdate();
 	public abstract String getContent();
 	public abstract int getHit();
-	
 }
