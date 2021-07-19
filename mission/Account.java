@@ -1,7 +1,6 @@
 package mission;
 
 public class Account {
-
 	private String ano ;
 	private int balance;
 	
