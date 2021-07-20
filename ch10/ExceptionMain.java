@@ -11,7 +11,7 @@ public class ExceptionMain {
 		try {
 		String s1 =null;
 		System.out.println(s1);
-		//참조변수의 타입 클래스로ㅜ터 제공되는 멤버를 사용하려할때 변수에 nwll값이 들어있는 경우 발생 
+		//참조변수의 타입 클래스로부터 제공되는 멤버를 사용하려할때 변수에 null값이 들어있는 경우 발생 
 		System.out.println(s1.length());
 		System.out.println("예외가 발생하지 않으면 실행");
 		}catch(NullPointerException e) {
