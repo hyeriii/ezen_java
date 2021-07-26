@@ -19,10 +19,12 @@ public class ListMain {
 		
 		//list의 맨 뒤에 원소 추가		
 		listInterface.add("1번째 원소");
+		//sList에 정의된 add매소드를 이용해 "1번째 원소"값을 넣는다.
 		listInterface.add("2번째 원소");
 		listInterface.add("3번째 원소");
 		
 		String value1 = listInterface.get(0);
+		//0인덱스에 저장된 String 객체를 가져온다 
 		String value2 = listInterface.get(1);
 		String value3 = listInterface.get(2);
 		System.out.println(value1);
@@ -80,6 +82,7 @@ public class ListMain {
 		
 		//remove(int i) - 해당 인덱스 원소의 참조를 제거하고 제거한 참조값반환
 		//컬렉션은 중간에 데이터가 비워지면 뒤에서 앞으로 당여서 빈칸없이 유지
+		Systrem.out.println("*********");
 		String removeObj = listInterface.remove(1);
 		System.out.println(removeObj);
 		System.out.println(listInterface.get(1));
