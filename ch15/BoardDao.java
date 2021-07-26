@@ -5,19 +5,14 @@ import java.util.List;
 
 public class BoardDao {
 	//게시물 가져오는 클래스 
-	
-	/*
-	 * private String title; private String content;
-	 */
-	
-	public Board getBoardList() {
-		ArrayList<Board> b= new ArrayList();
-		List<Board> list = b;
-		//return b.getTitle(); 
+
+	public List<Board> getBoardList() {
+		List<Board> list =new ArrayList<Board>();
+
 		
-		list.add(getBoardList());
-		//String title = list.get(0);
-		//return title;
+		list.add(new Board("제목","내용"));
+
+		 return list;
 	}
 
 }
