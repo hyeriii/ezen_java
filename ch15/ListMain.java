@@ -82,7 +82,7 @@ public class ListMain {
 		
 		//remove(int i) - 해당 인덱스 원소의 참조를 제거하고 제거한 참조값반환
 		//컬렉션은 중간에 데이터가 비워지면 뒤에서 앞으로 당여서 빈칸없이 유지
-		Systrem.out.println("*********");
+		System.out.println("*********");
 		String removeObj = listInterface.remove(1);
 		System.out.println(removeObj);
 		System.out.println(listInterface.get(1));

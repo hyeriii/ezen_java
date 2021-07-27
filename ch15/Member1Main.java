@@ -28,7 +28,7 @@ public class Member1Main {
 		
 		//210727 수업중
 		//set은 동등객체를 대입 할 수 없다.
-		//m1은 이미 set안에 존재하고 member에 대하여 
+		//m2은 이미 set안에 존재하고 member에 대하여 
 		//hashcode()와 equals를 재정의한 적 없으므로 주소가 같으면 대입 할 수 없다
 	}
 
