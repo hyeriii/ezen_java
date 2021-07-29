@@ -33,11 +33,11 @@ public class MapMain {
 		
 		//containsKey(K k) -> 일치하는 key객체가 존재하는 여부를 반환 
 		boolean result2 = map.containsKey("홍길동");
-		System.out.println(result2);
+		System.out.println("map.containsKey"+result2);
 		
 		//containsValue(V v) - > 모든타입을 인자로 넘길수 있으며 value객체가 존재하는지 여부 반환 
 		result2 = map.containsValue("test");
-		System.out.println(result2);
+		System.out.println("map.containsValue"+result2);
 		
 		//get(key) - > 인자로 넘어가느 key와 일치하는 map.entry의 value값 반환 
 		Integer i = map.get("홍길동");
